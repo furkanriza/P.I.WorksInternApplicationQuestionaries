@@ -1,6 +1,6 @@
 import csv
 
-with open('output.csv', 'w', newline='') as out:
+with open('outputFromFourthQuestion.csv', 'w', newline='') as out:
     writer = csv.writer(out)
     with open('country_vaccination_stats.csv', 'r') as input:
         reader = csv.reader(input)
